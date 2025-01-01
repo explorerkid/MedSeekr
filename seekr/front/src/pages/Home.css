@@ -1,0 +1,91 @@
+/* src/pages/Home.css */
+
+.home-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .home-header {
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .home-header h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .home-header p {
+    color: #666;
+  }
+  
+  .home-features {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+  .feature-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-card h2 {
+    font-size: 1.5em;
+    color: #007bff;
+  }
+  
+  .feature-card p {
+    color: #444;
+  }
+  
+  .home-actions {
+    margin: 40px 0;
+  }
+  
+  .home-actions h2 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .actions .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .actions .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .home-footer {
+    margin-top: 40px;
+    font-size: 1em;
+    color: #777;
+  }
+  
+  .home-footer a {
+    color: #007bff;
+  }
+  
+  .home-footer a:hover {
+    text-decoration: underline;
+  }
+  
